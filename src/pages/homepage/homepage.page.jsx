@@ -3,7 +3,13 @@ import './homepage.style.scss';
 const Homepage = () => {
     return(
         <div className="home">
-            <h1>This is the WolfMath ReactJS boiler plate!</h1>
+            <div className="hero">
+                <h1>Ron Papaleo</h1>
+                <h3>Drums, Keyboard, Accordian</h3>
+            </div>
+            <div className="content">
+                
+            </div>
         </div>
     )
 }

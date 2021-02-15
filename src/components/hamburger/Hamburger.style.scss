@@ -1,9 +1,15 @@
 .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     background-color: black;
     color: white;
 }
 
 .nav-click {
-    background-color: #c2ffa9;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: black;
     color: white;
 }

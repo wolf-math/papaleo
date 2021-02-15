@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 
+import {FaBars} from 'react-icons/fa'
 import './Hamburger.style.scss';
 
 const Hamburger = () => {
@@ -20,7 +21,7 @@ const Hamburger = () => {
 
     return(
         <div className={navStyle}>
-            <h1 onClick={toggle}>TOGGLE MENU</h1>
+            <FaBars onClick={toggle} />
             {!visible ? null : menu}
         </div>
     )
