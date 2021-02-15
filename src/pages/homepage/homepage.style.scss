@@ -1,6 +1,8 @@
 .hero {
   height: 75vh;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
   background: center no-repeat url('../../assets/drumset.jpg');
 
   h1 {
